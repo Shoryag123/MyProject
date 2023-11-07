@@ -1,0 +1,41 @@
+.banner {
+    background: url('https://t3.ftcdn.net/jpg/04/70/11/64/360_F_470116460_gG4tviMXUKBQ9GR6TysvK7EqGl06PS5X.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+}
+
+.b1 {
+    position: relative;
+    top: 204px;
+    font-size: 76px;
+    color: white;
+    text-shadow: 3px 4px 14px firebrick;
+}
+
+.b2 {
+    font-size: 2.5rem;
+    background: rgba(255, 165, 0, .2);
+    color: orange;
+    border-radius: 10px;
+    padding: 0rem 1rem;
+}
+
+.b3{
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 34px;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        margin-top: 67px;
+    }
+
+    .b1 {
+        position: relative;
+        top: 225px;
+    }
+}

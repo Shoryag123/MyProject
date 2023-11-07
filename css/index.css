@@ -1,0 +1,36 @@
+.s{
+    height: 550px;
+}
+.s1 {
+    margin-bottom: 188px;
+    color: ivory;
+    text-shadow: 3px 3px 3px black;
+    font-size: 75px;
+}
+
+.a{
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.ca{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+
+
+/* media querry start */
+
+@media (max-width : 768px) {
+    .s{
+        height: 310px;
+    }
+
+
+    .s1 {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+}
